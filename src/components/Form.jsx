@@ -101,7 +101,7 @@ const Form = ({ posts, setPosts, updateData, setUpdateData }) => {
           type="submit"
           className="bg-green-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-green-600 active:scale-95 transition duration-200"
         >
-          {updateData ? "Update" : "Add"}
+          {updateData && updateData.id ? "Update" : "Add"}
         </button>
       </form>
     </div>
