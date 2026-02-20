@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { deletePost, getPosts } from "../api/Api.js";
+import { deletePost, getPosts } from "../api/api.js";
 import Form from "./Form.jsx";
 const Posts = () => {
   const [posts, setPosts] = useState([]);
